@@ -1,1 +1,1 @@
-include ':app', ':commadapter'
+include ':example', ':commadapter'
