@@ -4,7 +4,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.ListView;
 
-import com.ping.adapter.commadapter.R;
 import com.ping.adapter.example.adapter.StringAdapter;
 
 import java.util.ArrayList;
