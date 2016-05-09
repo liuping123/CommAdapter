@@ -1,4 +1,7 @@
 # CommAdapter
+
+A common adapter library on Android
+
 Integration
 
 How to get?
