@@ -1,4 +1,34 @@
 # CommAdapter
+Integration
+
+How to get?
+
+Directly add lib to your project as compile libraries.
+
+For your maven dependency,
+
+```
+<dependency>
+  <groupId>com.ping.adapter.commadapter</groupId>
+  <artifactId>commadapter</artifactId>
+  <version>0.0.1</version>
+  <type>pom</type>
+</dependency>
+```
+For your gradle dependency,
+
+```
+repositories {
+     maven {
+         url 'https://dl.bintray.com/ping/maven/'
+     }
+}
+
+dependencies {
+    compile 'com.ping.adapter.commadapter:commadapter:0.0.1'
+}
+```
+
 Copyright 2016 liuping
 
    Licensed under the Apache License, Version 2.0 (the "License");
