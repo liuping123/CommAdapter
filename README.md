@@ -2,9 +2,9 @@
 
 A common adapter library on Android
 
-Integration
+#Integration
 
-How to get?
+##How to get?
 
 Directly add lib to your project as compile libraries.
 
@@ -31,6 +31,8 @@ dependencies {
     compile 'com.ping.adapter.commadapter:commadapter:0.0.1'
 }
 ```
+
+#License
 
 Copyright 2016 liuping
 
