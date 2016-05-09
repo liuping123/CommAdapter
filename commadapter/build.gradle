@@ -8,7 +8,7 @@ android {
         minSdkVersion 14
         targetSdkVersion 23
         versionCode 1
-        versionName "1.0"
+        versionName "0.0.1"
     }
     buildTypes {
         release {
@@ -23,8 +23,8 @@ ext {
     bintrayName = 'comm-adapter'
 
     publishedGroupId = 'com.ping.adapter.commadapter'
-    libraryName = 'CommAdapter'
-    artifact = 'comm-adapter'
+    libraryName = 'comm-adapter'
+    artifact = 'commadapter'
     libraryDescription = 'A common adapter library on Android'
 
     siteUrl = 'https://github.com/liuping123/CommAdapter'
