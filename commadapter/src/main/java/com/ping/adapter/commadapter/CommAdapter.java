@@ -55,7 +55,7 @@ public abstract class CommAdapter<T> extends BaseAdapter {
     /**
      * 获取数据
      *
-     * @return
+     * @return List<T>
      */
     public List<T> getData() {
         return mDatas;

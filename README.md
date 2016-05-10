@@ -21,14 +21,8 @@ For your maven dependency,
 For your gradle dependency,
 
 ```
-repositories {
-     maven {
-         url 'https://dl.bintray.com/ping/maven/'
-     }
-}
-
 dependencies {
-    compile 'com.ping.adapter.commadapter:commadapter:0.0.1'
+    compile 'com.ping.adapter.commadapter:commadapter:0.0.2'
 }
 ```
 
