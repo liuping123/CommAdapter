@@ -9,10 +9,18 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.ping.adapter.example.MainActivity">
 
+    <Button
+        android:id="@+id/operate_btn"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:text="操作" />
+
     <ListView
         android:id="@+id/list_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_above="@id/operate_btn"
         android:background="@color/white"
         android:divider="@color/border"
         android:dividerHeight="0dp"
