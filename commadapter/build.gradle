@@ -30,7 +30,7 @@ ext {
     siteUrl = 'https://github.com/liuping123/CommAdapter'
     gitUrl = 'https://github.com/liuping123/CommAdapter.git'
 
-    libraryVersion = '0.0.1'
+    libraryVersion = '0.0.2'
 
     developerId = 'ping'
     developerName = 'liu ping'
