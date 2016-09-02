@@ -22,7 +22,7 @@ ext {
     bintrayRepo = 'maven'
     bintrayName = 'comm-adapter'
 
-    publishedGroupId = 'com.ping.adapter.commadapter'
+    publishedGroupId = 'com.github.liuping123.commadapter'
     libraryName = 'comm-adapter'
     artifact = 'commadapter'
     libraryDescription = 'A common adapter library on Android'
@@ -30,7 +30,7 @@ ext {
     siteUrl = 'https://github.com/liuping123/CommAdapter'
     gitUrl = 'https://github.com/liuping123/CommAdapter.git'
 
-    libraryVersion = '0.0.2'
+    libraryVersion = '0.0.3'
 
     developerId = 'ping'
     developerName = 'liu ping'
