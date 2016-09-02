@@ -1,4 +1,40 @@
 # CommAdapter
+
+A common adapter library on Android
+
+#Integration
+
+##How to get?
+
+Directly add lib to your project as compile libraries.
+
+
+
+```
+1.android studio使用maven
+
+repositories {
+    maven {
+        url 'https://dl.bintray.com/ping/maven/'
+    }
+}
+
+dependencies {
+    ...
+    compile 'com.github.liuping123.commadapter:commadapter:0.0.3@aar'
+}
+
+```
+
+
+```
+2.android studio使用jcenter
+
+compile 'com.github.liuping123.commadapter:commadapter:0.0.3'
+```
+
+#License
+
 Copyright 2016 liuping
 
    Licensed under the Apache License, Version 2.0 (the "License");

@@ -55,7 +55,7 @@ public abstract class CommAdapter<T> extends BaseAdapter {
     /**
      * 获取数据
      *
-     * @return
+     * @return List<T>
      */
     public List<T> getData() {
         return mDatas;
@@ -71,11 +71,53 @@ public abstract class CommAdapter<T> extends BaseAdapter {
         addData(sList);
     }
 
+
+    public Context getmContext() {
+        return mContext;
+    }
+
     /**
      * 清空数据
      */
     public void clear() {
         mDatas.clear();
+    }
+
+    /**
+     * 添加数据
+     *
+     * @param t
+     * @param pos
+     */
+    public void addItem(T t, int pos) {
+        if (pos >= mDatas.size()) {
+            mDatas.add(t);
+        } else {
+            mDatas.add(pos, t);
+        }
+        notifyDataSetChanged();
+    }
+
+    /**
+     * 删除数据
+     *
+     * @param t
+     */
+    public void remove(T t) {
+        mDatas.remove(t);
+        notifyDataSetChanged();
+    }
+
+    /**
+     * 删除数据
+     *
+     * @param pos
+     */
+    public void remove(int pos) {
+        if (mDatas != null && pos < mDatas.size()) {
+            mDatas.remove(pos);
+        }
+        notifyDataSetChanged();
     }
 
     @Override
